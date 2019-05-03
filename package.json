@@ -1,0 +1,35 @@
+{
+  "name": "walkman-vendors",
+  "version": "1.0.1",
+  "description": "A CMS in NODE.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sushant Chalise",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^0.4.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "faker": "^4.1.0",
+    "fcm-notification": "^2.0.0",
+    "flash": "^1.1.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.4.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "npm": "^6.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "shortid": "^2.2.13"
+  }
+}

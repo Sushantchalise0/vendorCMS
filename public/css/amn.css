@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #526355;
+  }
+.particule {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 25px;
+  width: 1rem;
+  height: 1rem;
+  margin: -.5rem 0 0 -.5rem;
+  border: 1px solid currentColor;
+  transform: scale(0);
+}

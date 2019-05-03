@@ -1,0 +1,40 @@
+
+
+
+
+{{!-- {{> home/form-msgs}} --}}
+<div class="box-body" style="overflow-x:auto;">
+<table id="example" >
+<thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Vendoor Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Password</th>
+          <th>Actions</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        {{!-- <td><img height="50" class="img-responsive" src="/uploads/{{file}}" alt=""></td> --}}
+        
+        <td>{{user.firstname}}</td>
+        <td>{{user.lastname}}</td>
+        <td>{{#each vendorlog}}{{vendor_id.vendor_name}}{{/each}}</td>
+        <td>{{#each vendorlog}}{{vendor_id.vendor_address}}{{/each}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.password}}</td>
+        <td>
+            <a href="/admin/settings/edit/{{id}}" class="btn btn-info">Edit</a>
+            </form>
+        </td>
+    
+    </tr>
+    
+
+</tbody>
+</table>
+</div>
