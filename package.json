@@ -21,7 +21,7 @@
     "fcm-notification": "^2.0.0",
     "flash": "^1.1.0",
     "fs": "0.0.1-security",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "method-override": "^3.0.0",
     "moment": "^2.22.2",
     "mongoose": "^5.5.2",
